@@ -6,8 +6,7 @@ public class TurretTracker : MonoBehaviour
     public Transform target;
     public float rotationSpeed = 5f;
 
-    private List<Transform> targetQueue =
-        new List<Transform>();
+    private List<Transform> targetQueue = new List<Transform>();
 
 
     void Update()

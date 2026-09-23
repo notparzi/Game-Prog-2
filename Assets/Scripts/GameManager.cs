@@ -17,9 +17,7 @@ public class GameManager : MonoBehaviour
         }
 
         Instance = this;
-
         scoreText = FindFirstObjectByType<TMP_Text>();
-
         UpdateScoreText();
     }
 
@@ -27,9 +25,7 @@ public class GameManager : MonoBehaviour
     public void AddScore(int amount)
     {
         score += amount;
-
         UpdateScoreText();
-
         Debug.Log("Score: " + score);
     }
 
